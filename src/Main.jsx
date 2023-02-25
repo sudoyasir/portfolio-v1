@@ -63,17 +63,17 @@ export default function Main(){
             <div className="row">
                 <div className="col-md-6 rounded-5 mt-4" data-aos="fade" data-aos-duration="2500">
                     <div className="product">
-                        <a href="https://yasir2002.github.io/site1/" target='_blank'><img src={Product1} className='img-fluid rounded-5' alt="" /></a>
+                        <a href="https://yasir2002.github.io/projects/bitsbytes/" target='_blank'><img src={Product1} className='img-fluid rounded-5' alt="" /></a>
                         <h3 className='productText'>Bits & Bytes</h3>
-                        <a href='https://yasir2002.github.io/site1/' target='_blank' className='linkIcon'><i className='fa fa-arrow-up-right-from-square'></i></a>
+                        <a href='https://yasir2002.github.io/projects/bitsbytes/' target='_blank' className='linkIcon'><i className='fa fa-arrow-up-right-from-square'></i></a>
                     </div>
                 </div>
 
                 <div className="col-md-6 rounded-5 mt-4" data-aos="fade" data-aos-duration="2000">
                     <div className="product">
-                        <a href="https://yasir2002.github.io/site2/" target='_blank'><img src={Product2} className='img-fluid rounded-5' alt="" /></a>
+                        <a href="https://yasir2002.github.io/projects/codecademy/" target='_blank'><img src={Product2} className='img-fluid rounded-5' alt="" /></a>
                         <h3 className='productText'>Codecademy</h3>
-                        <a href='https://yasir2002.github.io/site2/' target='_blank' className='linkIcon'><i className='fa fa-arrow-up-right-from-square'></i></a>
+                        <a href='https://yasir2002.github.io/projects/codecademy/' target='_blank' className='linkIcon'><i className='fa fa-arrow-up-right-from-square'></i></a>
                     </div>
                 </div>
             </div>
