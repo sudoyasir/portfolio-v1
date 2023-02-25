@@ -34,16 +34,16 @@ export default function Main(){
                         <a href="mailto:y451rmahar@gmail.com"><button className='btn btnContact rounded-pill px-4 py-2'>Contact Me</button></a>
                         <ul>
                             <li>
-                                <a href="https://instagram.com/yasirnawazzz"><i className='fa fa-instagram'></i></a>
+                                <a href="https://instagram.com/yasirnawazzz" target='_blank'><i className='fa fa-instagram'></i></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/YasirsThoughts"><i className='fa fa-twitter'></i></a>
+                                <a href="https://twitter.com/YasirsThoughts" target='_blank'><i className='fa fa-twitter'></i></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/yasirnawaz24/"><i className='fa fa-linkedin'></i></a>
+                                <a href="https://www.linkedin.com/in/yasirnawaz24/" target='_blank'><i className='fa fa-linkedin'></i></a>
                             </li>
                             <li>
-                                <a href="https://github.com/yasir2002"><i className='fa fa-github'></i></a>
+                                <a href="https://github.com/yasir2002" target='_blank'><i className='fa fa-github'></i></a>
                             </li>
                         </ul>
                     </div>
@@ -109,16 +109,16 @@ export default function Main(){
             <a href="mailto:y451rmahar@gmail.com"><button className='btn btnContact rounded-pill px-4 py-2'>Contact Me</button></a>
                 <ul>
                     <li>
-                        <a href="https://instagram.com/yasirnawazzz"><i className='fa fa-instagram'></i></a>
+                        <a href="https://instagram.com/yasirnawazzz" target='_blank'><i className='fa fa-instagram'></i></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/YasirsThoughts"><i className='fa fa-twitter'></i></a>
+                        <a href="https://twitter.com/YasirsThoughts" target='_blank'><i className='fa fa-twitter'></i></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/yasirnawaz24/"><i className='fa fa-linkedin'></i></a>
+                        <a href="https://www.linkedin.com/in/yasirnawaz24/" target='_blank'><i className='fa fa-linkedin'></i></a>
                     </li>
                     <li>
-                        <a href="https://github.com/yasir2002"><i className='fa fa-github'></i></a>
+                        <a href="https://github.com/yasir2002" target='_blank'><i className='fa fa-github'></i></a>
                     </li>
                 </ul>
             </div>
