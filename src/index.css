@@ -142,4 +142,7 @@ body{
   .imgContainer{
     padding: 0% !important;
   }
+  .topContact{
+    padding: 0 !important;
+  }
 }

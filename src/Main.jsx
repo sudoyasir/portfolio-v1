@@ -25,7 +25,7 @@ export default function Main(){
     <section id='hero'>
         <div className="container">
             <div className="row" >
-                <div className="col-md-7 col-sm-12" data-aos="fade" data-aos-duration="2000">
+                <div className="col-md-7 col-sm-12 topContact" data-aos="fade" data-aos-duration="2000">
                 <div className=" rounded-5 position-relative p-5 bg_light" >
                     <img src={MyPicture} className='bgImg1' alt="" />
                     <h1 style={{fontWeight:'700'}}>Hello, I'm Yasir, a web <br />Developer with 2+ years of <br />experiencs</h1>
