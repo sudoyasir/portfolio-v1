@@ -114,12 +114,32 @@ html{
   left: 35px;
   font-weight: 900;
 }
+.eyeIcon i{
+  position: absolute;
+  top: 25px;
+  right: 85px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.3)!important;
+  transition: .6s all;
+}
 .linkIcon i{
   position: absolute;
-  top: 35px;
+  top: 25px;
   right: 35px;
-  color: white;
-  font-size: 25px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px ;
+  border-radius: 50%;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.3)!important;
+  transition: .6s all;
+}
+.linkIcon i:hover, .eyeIcon:hover i{
+  color:#1d1d1d;
+  background-color: #fff;
+
 }
 
 
@@ -154,4 +174,8 @@ html{
   body{
     overflow-x: hidden;
   }
+  .eyeIcon i, .linkIcon i{
+    top: auto;
+    bottom: 35px !important;
+  } 
 }
