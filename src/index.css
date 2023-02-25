@@ -4,9 +4,12 @@ body{
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 #NavigationBar img{
-  width: 25px;
+  width: 20px;
+  margin-bottom: 3px;
 }
 .logo {
   text-decoration: none;
