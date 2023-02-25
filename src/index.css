@@ -143,6 +143,12 @@ body{
     padding: 0% !important;
   }
   .topContact{
-    padding: 0 !important;
+    padding: 0% !important;
+  }
+  .mt-4{
+    margin-top: 1rem !important;
+  }
+  body{
+    overflow-x: hidden;
   }
 }
