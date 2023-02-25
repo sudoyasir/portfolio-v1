@@ -8,7 +8,7 @@ import Product4 from '../src/img/product-4.png'
 export default function Main(){
     return(<>
     
-    <section id='NavigationBar'>
+    <section id='NavigationBar'data-aos="fade" data-aos-duration="4000">
     <div className="container">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
