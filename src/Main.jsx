@@ -10,10 +10,10 @@ export default function Main(){
     
     <section id='NavigationBar'>
         <div className="container d-flex flex-row justify-content-between py-3 px-3">
-            <a href="/" className='logo'><img src={Logo} alt="" /> <span> &nbsp;Yasir</span></a>
+            <a href="https://yasir2002.github.io/portfolio/" className='logo'><img src={Logo} alt="" /> <span> &nbsp;Yasir</span></a>
 
             <ul>
-                <li><a href="/" className='active'>Home</a></li>
+                <li><a href="https://yasir2002.github.io/portfolio/" className='active'>Home</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#footer">Contact</a></li>
 
