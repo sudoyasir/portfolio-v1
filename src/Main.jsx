@@ -47,16 +47,16 @@ export default function Main(){
                         <a href="mailto:y451rmahar@gmail.com"><button className='btn btnContact rounded-pill px-4 py-2'>Contact Me</button></a>
                         <ul>
                             <li>
-                                <a href="https://instagram.com/yasirnawazzz" target='_blank'><i className='fa fa-instagram'></i></a>
+                                <a href="https://instagram.com/yasirnawazzz" target='_blank' rel="noreferrer"><i className='fa fa-instagram'></i></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/YasirsThoughts" target='_blank'><i className='fa fa-twitter'></i></a>
+                                <a href="https://twitter.com/YasirsThoughts" target='_blank' rel="noreferrer"><i className='fa fa-twitter'></i></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/yasirnawaz24/" target='_blank'><i className='fa fa-linkedin'></i></a>
+                                <a href="https://www.linkedin.com/in/yasirnawaz24/" target='_blank' rel="noreferrer"><i className='fa fa-linkedin'></i></a>
                             </li>
                             <li>
-                                <a href="https://github.com/yasir2002" target='_blank'><i className='fa fa-github'></i></a>
+                                <a href="https://github.com/yasir2002" target='_blank' rel="noreferrer"><i className='fa fa-github'></i></a>
                             </li>
                         </ul>
                     </div>
@@ -78,7 +78,7 @@ export default function Main(){
                     <div className="product">
                         <div><img src={Product1} className='img-fluid rounded-5' alt="" /></div>
                         <h3 className='productText'>Bits & Bytes</h3>
-                        <a href='https://yasir2002.github.io/projects/bitsbytes/' target='_blank' className='eyeIcon shadow'><i className='fa fa-eye'></i></a>
+                        <a href='https://yasir2002.github.io/projects/bitsbytes/' target='_blank' rel="noreferrer" className='eyeIcon shadow'><i className='fa fa-eye'></i></a>
                         <a data-bs-toggle="offcanvas" data-bs-target="#bitsbytes" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></a>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ export default function Main(){
                         <p>
                         Overall, the Bits&Bytes website template project is an excellent way to demonstrate my front-end web development skills and create a user-friendly interface for an online coding academy. The template can be customized and used as a starting point for a full-scale online coding academy website with a back-end functionality.
                         </p>
-                        <a href="https://yasir2002.github.io/projects/bitsbytes/" target='_blank'><button className='btn btnContact rounded-pill px-4 py-2'>Visit Site</button></a>
+                        <a href="https://yasir2002.github.io/projects/bitsbytes/" target='_blank' rel="noreferrer"><button className='btn btnContact rounded-pill px-4 py-2'>Visit Site</button></a>
                     </div>
                 </div>
 
@@ -109,7 +109,7 @@ export default function Main(){
                     <div className="product">
                         <a><img src={Product2} className='img-fluid rounded-5' alt="" /></a>
                         <h3 className='productText'>Codecademy</h3>
-                        <a href='https://yasir2002.github.io/projects/codecademy/' target='_blank' className='eyeIcon'><i className='fa fa-eye'></i></a>
+                        <a href='https://yasir2002.github.io/projects/codecademy/' target='_blank' rel="noreferrer" className='eyeIcon'><i className='fa fa-eye'></i></a>
                         <a data-bs-toggle="offcanvas" data-bs-target="#codecademy" aria-controls="offcanvasLeft" className='linkIcon'><i className='fa fa-circle-info'></i></a>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ export default function Main(){
                         <p>
                         Overall, the Codecademy website template project is an excellent way to demonstrate my front-end web development skills and create a user-friendly interface for an online coding academy. The template can be customized and used as a starting point for a full-scale online coding academy website with a back-end functionality.
                         </p>
-                        <a href="https://yasir2002.github.io/projects/codecademy/" target='_blank'><button className='btn btnContact rounded-pill px-4 py-2'>Visit Site</button></a>
+                        <a href="https://yasir2002.github.io/projects/codecademy/" target='_blank' rel="noreferrer"><button className='btn btnContact rounded-pill px-4 py-2'>Visit Site</button></a>
                     </div>
                 </div>
 
@@ -142,7 +142,7 @@ export default function Main(){
                     <div className="product">
                         <a><img src={Product3} className='img-fluid rounded-5' alt="" /></a>
                         <h3 className='productText'>Conky Configuration</h3>
-                        <a href='https://github.com/yasir2002/Conky-Config-Files' target='_blank' className='eyeIcon'><i className='fa fa-eye'></i></a>
+                        <a href='https://github.com/yasir2002/Conky-Config-Files' target='_blank' rel="noreferrer" className='eyeIcon'><i className='fa fa-eye'></i></a>
                         <a data-bs-toggle="offcanvas" data-bs-target="#conkyconfig" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></a>
                     </div>
                 </div>
@@ -161,7 +161,7 @@ export default function Main(){
                         <p>
                             I've kept this code public so if anyone want to use this, he simply has to install Conky and Conky Manager (not necessary but recommended) and use these configuration files.
                         </p>
-                        <a href="https://github.com/yasir2002/Conky-Config-Files" target='_blank'><button className='btn btnContact rounded-pill px-4 py-2'>View Code</button></a>
+                        <a href="https://github.com/yasir2002/Conky-Config-Files" target='_blank' rel="noreferrer"><button className='btn btnContact rounded-pill px-4 py-2'>View Code</button></a>
                     </div>
                 </div>
 
@@ -171,7 +171,7 @@ export default function Main(){
                     <div className="product">
                         <a><img src={Product4} className='img-fluid rounded-5' alt="" /></a>
                         <h3 className='productText'>Tweeting Bot</h3>
-                        <a href='https://github.com/yasir2002/Auto-Tweeting-Twitter-Bot' target='_blank' className='eyeIcon'><i className='fa fa-eye'></i></a>
+                        <a href='https://github.com/yasir2002/Auto-Tweeting-Twitter-Bot' target='_blank' rel="noreferrer" className='eyeIcon'><i className='fa fa-eye'></i></a>
                         <a data-bs-toggle="offcanvas" data-bs-target="#twitterbot" aria-controls="offcanvasLeft" className='linkIcon'><i className='fa fa-circle-info'></i></a>
                     </div>
                 </div>
@@ -193,7 +193,7 @@ export default function Main(){
                         <p>
                         Overall, the Twitter Quote Bot was a fun and engaging project that demonstrates several important skills in software development, data management, and automation.
                         </p>
-                        <a href="https://github.com/yasir2002/Auto-Tweeting-Twitter-Bot" target='_blank'><button className='btn btnContact rounded-pill px-4 py-2'>View code</button></a>
+                        <a href="https://github.com/yasir2002/Auto-Tweeting-Twitter-Bot" target='_blank' rel="noreferrer" ><button className='btn btnContact rounded-pill px-4 py-2'>View code</button></a>
                     </div>
                 </div>
             </div>
@@ -211,16 +211,16 @@ export default function Main(){
             <a href="mailto:y451rmahar@gmail.com"><button className='btn btnContact rounded-pill px-4 py-2'>Contact Me</button></a>
                 <ul>
                     <li>
-                        <a href="https://instagram.com/yasirnawazzz" target='_blank'><i className='fa fa-instagram'></i></a>
+                        <a href="https://instagram.com/yasirnawazzz" target='_blank' rel="noreferrer"><i className='fa fa-instagram'></i></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/YasirsThoughts" target='_blank'><i className='fa fa-twitter'></i></a>
+                        <a href="https://twitter.com/YasirsThoughts" target='_blank' rel="noreferrer"><i className='fa fa-twitter'></i></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/yasirnawaz24/" target='_blank'><i className='fa fa-linkedin'></i></a>
+                        <a href="https://www.linkedin.com/in/yasirnawaz24/" target='_blank' rel="noreferrer"><i className='fa fa-linkedin'></i></a>
                     </li>
                     <li>
-                        <a href="https://github.com/yasir2002" target='_blank'><i className='fa fa-github'></i></a>
+                        <a href="https://github.com/yasir2002" target='_blank' rel="noreferrer"><i className='fa fa-github'></i></a>
                     </li>
                 </ul>
             </div>
