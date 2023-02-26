@@ -143,16 +143,57 @@ export default function Main(){
                         <a><img src={Product3} className='img-fluid rounded-5' alt="" /></a>
                         <h3 className='productText'>Conky Configuration</h3>
                         <a href='https://github.com/yasir2002/Conky-Config-Files' target='_blank' className='eyeIcon'><i className='fa fa-eye'></i></a>
-                        <a href='https://github.com/yasir2002/Conky-Config-Files' target='_blank' className='linkIcon'><i className='fa fa-circle-info'></i></a>
+                        <a data-bs-toggle="offcanvas" data-bs-target="#conkyconfig" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></a>
                     </div>
                 </div>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="conkyconfig" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">Linux Desktop costomization files </h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>
+                        Conky is a free and open-source system monitor software for Linux and other Unix-like operating systems. It is designed to display system information and statistics on the desktop in real-time. Conky can display a wide range of information, including CPU usage, memory usage, disk usage, network activity, system temperature, date and time, and much more.
+                        </p>
+                        <p>
+                            Using conky and Lua I made own desktop preview. It displays many things linke date, time, sytem temprature, battery percentage, free memory, used memory, cpu temprature, network real time speed (upload & download), and much more.
+                        </p>
+                        <p>
+                            I've kept this code public so if anyone want to use this, he simply has to install Conky and Conky Manager (not necessary but recommended) and use these configuration files.
+                        </p>
+                        <a href="https://github.com/yasir2002/Conky-Config-Files" target='_blank'><button className='btn btnContact rounded-pill px-4 py-2'>View Code</button></a>
+                    </div>
+                </div>
+
+
 
                 <div className="col-md-6 rounded-5 mt-4" data-aos="fade" data-aos-duration="2000">
                     <div className="product">
                         <a><img src={Product4} className='img-fluid rounded-5' alt="" /></a>
                         <h3 className='productText'>Tweeting Bot</h3>
-                        <a href='https://github.com/yasir2002/Conky-Config-Files' target='_blank' className='eyeIcon'><i className='fa fa-eye'></i></a>
-                        <a href='https://github.com/yasir2002/Auto-Tweeting-Twitter-Bot' target='_blank' className='linkIcon'><i className='fa fa-circle-info'></i></a>
+                        <a href='https://github.com/yasir2002/Auto-Tweeting-Twitter-Bot' target='_blank' className='eyeIcon'><i className='fa fa-eye'></i></a>
+                        <a data-bs-toggle="offcanvas" data-bs-target="#twitterbot" aria-controls="offcanvasLeft" className='linkIcon'><i className='fa fa-circle-info'></i></a>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="twitterbot" aria-labelledby="offcanvasLeftLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasLeftLabel">Twitter Bot</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>
+                        The Twitter Quote Bot is a Python-based project that uses the Tweepy library to automate the process of tweeting random quotes on a regular interval. The bot accesses a pre-selected database of quotes and selects one at random, then posts it on a designated Twitter account. The interval between tweets can be customized to meet the user's needs.
+                        </p>
+                        <p>
+                        The Twitter Quote Bot project showcases several key skills in software development and data management. Firstly, it demonstrates the ability to use a third-party library (Tweepy) to interface with an external service (Twitter's API) in order to automate a task. This requires knowledge of authentication and authorization mechanisms, as well as familiarity with the specific API endpoints used by Tweepy.
+                        </p>
+                        <p>
+                        Secondly, the project demonstrates proficiency in working with data, specifically in selecting and manipulating subsets of a larger dataset (the quotes database). This requires knowledge of data structures, file I/O, and possibly database management tools. Finally, the project showcases the ability to plan and implement a long-running task, which in this case requires scheduling tweets to be sent at specific intervals over a potentially indefinite period of time.
+                        </p>
+                        <p>
+                        Overall, the Twitter Quote Bot was a fun and engaging project that demonstrates several important skills in software development, data management, and automation.
+                        </p>
+                        <a href="https://github.com/yasir2002/Auto-Tweeting-Twitter-Bot" target='_blank'><button className='btn btnContact rounded-pill px-4 py-2'>View code</button></a>
                     </div>
                 </div>
             </div>
