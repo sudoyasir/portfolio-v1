@@ -12,7 +12,7 @@ export default function Main(){
     <div className="container">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src={Logo} alt="" /> <b> &nbsp;Yasir</b></a>
+            <a class="navbar-brand" href="http://yasir2002.github.io/portfolio"><img src={Logo} alt="" /> <b> &nbsp;Yasir</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -79,7 +79,7 @@ export default function Main(){
                         <div><img src={Product1} className='img-fluid rounded-5' alt="" /></div>
                         <h3 className='productText'>Bits & Bytes</h3>
                         <a href='https://yasir2002.github.io/projects/bitsbytes/' target='_blank' rel="noreferrer" className='eyeIcon shadow'><i className='fa fa-eye'></i></a>
-                        <a data-bs-toggle="offcanvas" data-bs-target="#bitsbytes" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></a>
+                        <button data-bs-toggle="offcanvas" data-bs-target="#bitsbytes" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></button>
                     </div>
                 </div>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="bitsbytes" aria-labelledby="offcanvasRightLabel">
@@ -107,10 +107,10 @@ export default function Main(){
 
                 <div className="col-md-6 rounded-5 mt-4" data-aos="fade" data-aos-duration="2000">
                     <div className="product">
-                        <a><img src={Product2} className='img-fluid rounded-5' alt="" /></a>
+                        <div><img src={Product2} className='img-fluid rounded-5' alt="" /></div>
                         <h3 className='productText'>Codecademy</h3>
                         <a href='https://yasir2002.github.io/projects/codecademy/' target='_blank' rel="noreferrer" className='eyeIcon'><i className='fa fa-eye'></i></a>
-                        <a data-bs-toggle="offcanvas" data-bs-target="#codecademy" aria-controls="offcanvasLeft" className='linkIcon'><i className='fa fa-circle-info'></i></a>
+                        <button data-bs-toggle="offcanvas" data-bs-target="#codecademy" aria-controls="offcanvasLeft" className='linkIcon'><i className='fa fa-circle-info'></i></button>
                     </div>
                 </div>
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="codecademy" aria-labelledby="offcanvasLeftLabel">
@@ -140,10 +140,10 @@ export default function Main(){
             <div className="row" data-aos="" data-aos-duration="2000">
                 <div className="col-md-6 rounded-5 mt-4" data-aos="fade" data-aos-duration="3000">
                     <div className="product">
-                        <a><img src={Product3} className='img-fluid rounded-5' alt="" /></a>
+                        <div><img src={Product3} className='img-fluid rounded-5' alt="" /></div>
                         <h3 className='productText'>Conky Configuration</h3>
                         <a href='https://github.com/yasir2002/Conky-Config-Files' target='_blank' rel="noreferrer" className='eyeIcon'><i className='fa fa-eye'></i></a>
-                        <a data-bs-toggle="offcanvas" data-bs-target="#conkyconfig" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></a>
+                        <button data-bs-toggle="offcanvas" data-bs-target="#conkyconfig" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></button>
                     </div>
                 </div>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="conkyconfig" aria-labelledby="offcanvasRightLabel">
@@ -169,10 +169,10 @@ export default function Main(){
 
                 <div className="col-md-6 rounded-5 mt-4" data-aos="fade" data-aos-duration="2000">
                     <div className="product">
-                        <a><img src={Product4} className='img-fluid rounded-5' alt="" /></a>
+                        <div><img src={Product4} className='img-fluid rounded-5' alt="" /></div>
                         <h3 className='productText'>Tweeting Bot</h3>
                         <a href='https://github.com/yasir2002/Auto-Tweeting-Twitter-Bot' target='_blank' rel="noreferrer" className='eyeIcon'><i className='fa fa-eye'></i></a>
-                        <a data-bs-toggle="offcanvas" data-bs-target="#twitterbot" aria-controls="offcanvasLeft" className='linkIcon'><i className='fa fa-circle-info'></i></a>
+                        <button data-bs-toggle="offcanvas" data-bs-target="#twitterbot" aria-controls="offcanvasLeft" className='linkIcon'><i className='fa fa-circle-info'></i></button>
                     </div>
                 </div>
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="twitterbot" aria-labelledby="offcanvasLeftLabel">
