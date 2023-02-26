@@ -4,6 +4,7 @@ import Product1 from '../src/img/product-1.png'
 import Product2 from '../src/img/product-2.png'
 import Product3 from '../src/img/product-3.png'
 import Product4 from '../src/img/product-4.png'
+import Product5 from '../src/img/product-5.png'
 
 export default function Main(){
     return(<>
@@ -79,7 +80,7 @@ export default function Main(){
                         <div><img src={Product1} className='img-fluid rounded-5' alt="" /></div>
                         <h3 className='productText'>Bits & Bytes</h3>
                         <a href='https://yasir2002.github.io/projects/bitsbytes/' target='_blank' rel="noreferrer" className='eyeIcon shadow'><i className='fa fa-eye'></i></a>
-                        <button data-bs-toggle="offcanvas" data-bs-target="#bitsbytes" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></button>
+                        <span data-bs-toggle="offcanvas" data-bs-target="#bitsbytes" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></span>
                     </div>
                 </div>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="bitsbytes" aria-labelledby="offcanvasRightLabel">
@@ -110,7 +111,7 @@ export default function Main(){
                         <div><img src={Product2} className='img-fluid rounded-5' alt="" /></div>
                         <h3 className='productText'>Codecademy</h3>
                         <a href='https://yasir2002.github.io/projects/codecademy/' target='_blank' rel="noreferrer" className='eyeIcon'><i className='fa fa-eye'></i></a>
-                        <button data-bs-toggle="offcanvas" data-bs-target="#codecademy" aria-controls="offcanvasLeft" className='linkIcon'><i className='fa fa-circle-info'></i></button>
+                        <span data-bs-toggle="offcanvas" data-bs-target="#codecademy" aria-controls="offcanvasLeft" className='linkIcon'><i className='fa fa-circle-info'></i></span>
                     </div>
                 </div>
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="codecademy" aria-labelledby="offcanvasLeftLabel">
@@ -143,7 +144,7 @@ export default function Main(){
                         <div><img src={Product3} className='img-fluid rounded-5' alt="" /></div>
                         <h3 className='productText'>Conky Configuration</h3>
                         <a href='https://github.com/yasir2002/Conky-Config-Files' target='_blank' rel="noreferrer" className='eyeIcon'><i className='fa fa-eye'></i></a>
-                        <button data-bs-toggle="offcanvas" data-bs-target="#conkyconfig" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></button>
+                        <span data-bs-toggle="offcanvas" data-bs-target="#conkyconfig" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></span>
                     </div>
                 </div>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="conkyconfig" aria-labelledby="offcanvasRightLabel">
@@ -172,7 +173,7 @@ export default function Main(){
                         <div><img src={Product4} className='img-fluid rounded-5' alt="" /></div>
                         <h3 className='productText'>Tweeting Bot</h3>
                         <a href='https://github.com/yasir2002/Auto-Tweeting-Twitter-Bot' target='_blank' rel="noreferrer" className='eyeIcon'><i className='fa fa-eye'></i></a>
-                        <button data-bs-toggle="offcanvas" data-bs-target="#twitterbot" aria-controls="offcanvasLeft" className='linkIcon'><i className='fa fa-circle-info'></i></button>
+                        <span data-bs-toggle="offcanvas" data-bs-target="#twitterbot" aria-controls="offcanvasLeft" className='linkIcon'><i className='fa fa-circle-info'></i></span>
                     </div>
                 </div>
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="twitterbot" aria-labelledby="offcanvasLeftLabel">
@@ -194,6 +195,32 @@ export default function Main(){
                         Overall, the Twitter Quote Bot was a fun and engaging project that demonstrates several important skills in software development, data management, and automation.
                         </p>
                         <a href="https://github.com/yasir2002/Auto-Tweeting-Twitter-Bot" target='_blank' rel="noreferrer" ><button className='btn btnContact rounded-pill px-4 py-2'>View code</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row" data-aos="" data-aos-duration="2000">
+                <div className="col-md-6 rounded-5 mt-4" data-aos="fade" data-aos-duration="3000">
+                    <div className="product">
+                        <div><img src={Product5} className='img-fluid rounded-5' alt="" /></div>
+                        <h3 className='productText'>Gradient Generator</h3>
+                        <a href='https://yasir2002.github.io/gradient-generator/' target='_blank' rel="noreferrer" className='eyeIcon'><i className='fa fa-eye'></i></a>
+                        <span data-bs-toggle="offcanvas" data-bs-target="#gradientgenerator" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></span>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="gradientgenerator" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">Random Gradient Generator</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>
+                            Random Gradient Generator is a web application that generates random gradients with just one click! It's a simple web app that uses HTML, CSS, and JavaScript. With this tool, you can easily generate beautiful color schemes for your web designs or projects. Just click the button and copy the CSS property for your desired gradient. It's that simple!
+                        </p>
+                        <p>
+                            I had a lot of fun creating this project, and I hope you find it useful too. Feel free to share it with anyone who might be interested. Let me know if you have any feedback or suggestions for improvement.
+                        </p>
+                        <a href="https://yasir2002.github.io/gradient-generator/" target='_blank' rel="noreferrer"><button className='btn btnContact rounded-pill px-4 py-2'>Visit Site</button></a>
                     </div>
                 </div>
             </div>
