@@ -5,6 +5,7 @@ import Product2 from '../src/img/product-2.png'
 import Product3 from '../src/img/product-3.png'
 import Product4 from '../src/img/product-4.png'
 import Product5 from '../src/img/product-5.png'
+import Product6 from '../src/img/product-6.png'
 
 export default function Main(){
     return(<>
@@ -221,6 +222,30 @@ export default function Main(){
                             I had a lot of fun creating this project, and I hope you find it useful too. Feel free to share it with anyone who might be interested. Let me know if you have any feedback or suggestions for improvement.
                         </p>
                         <a href="https://yasir2002.github.io/gradient-generator/" target='_blank' rel="noreferrer"><button className='btn btnContact rounded-pill px-4 py-2'>Visit Site</button></a>
+                    </div>
+                </div>
+
+                <div className="col-md-6 rounded-5 mt-4" data-aos="fade" data-aos-duration="3000">
+                    <div className="product">
+                        <div><img src={Product6} className='img-fluid rounded-5' alt="" /></div>
+                        <h3 className='productText'>Box Shadow Generator</h3>
+                        <a href='https://yasir2002.github.io/box-shadow-generator/' target='_blank' rel="noreferrer" className='eyeIcon'><i className='fa fa-eye'></i></a>
+                        <span data-bs-toggle="offcanvas" data-bs-target="#boxshadow" aria-controls="offcanvasRight" className='linkIcon'><i className='fa fa-circle-info'></i></span>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="boxshadow" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">Box Shadow Generator</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>
+                            Random Gradient Generator is a web application that generates random gradients with just one click! It's a simple web app that uses HTML, CSS, and JavaScript. With this tool, you can easily generate beautiful color schemes for your web designs or projects. Just click the button and copy the CSS property for your desired gradient. It's that simple!
+                        </p>
+                        <p>
+                            I had a lot of fun creating this project, and I hope you find it useful too. Feel free to share it with anyone who might be interested. Let me know if you have any feedback or suggestions for improvement.
+                        </p>
+                        <a href="https://yasir2002.github.io/box-shadow-generator/" target='_blank' rel="noreferrer"><button className='btn btnContact rounded-pill px-4 py-2'>Visit Site</button></a>
                     </div>
                 </div>
             </div>
