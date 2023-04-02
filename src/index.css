@@ -1,46 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
-body{
+body {
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
-#NavigationBar img{
+
+#NavigationBar img {
   width: 20px;
   margin-bottom: 3px;
 }
+
 .logo {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
-.logo:hover{
+
+.logo:hover {
   color: black;
 }
-#NavigationBar ul{
+
+#NavigationBar ul {
   margin: 0;
   padding: 0;
 
 }
-#NavigationBar li{
+
+#NavigationBar li {
   display: inline-block;
 }
+
 #NavigationBar ul li a {
   text-decoration: none;
   margin: auto 10px;
   color: #727272;
 }
-.active{
+
+.active {
   color: black !important;
   font-weight: 600;
 }
-.rounded-5{
+
+.rounded-5 {
   border-radius: 24px;
   overflow: hidden;
 }
-.bgImg1{
+
+.bgImg1 {
   background-image: url('../src/img/me.jpg');
   filter: blur(30px) opacity(1);
   height: 100%;
@@ -53,33 +63,40 @@ html{
   position: absolute;
   z-index: -1;
 }
+
 .bg_light:hover .bgImg1 {
   transform: rotate(0deg);
 }
-.bg_light{
+
+.bg_light {
   background-color: #dcdadaaf;
   cursor: pointer;
 }
-.btnContact{
+
+.btnContact {
   color: white;
   background-color: #1d1d1d;
   border: 1px #1d1d1d solid !important;
 }
-.btnContact:hover{
+
+.btnContact:hover {
   color: #1d1d1d;
   background-color: transparent;
   border: 1px #1d1d1d solid !important;
 }
-.homeContact ul{
+
+.homeContact ul {
   display: inline-block;
 }
-.homeContact li{
+
+.homeContact li {
   display: inline-block;
   margin: 0% 10px;
 }
-.homeContact ul li a{
+
+.homeContact ul li a {
   text-decoration: none;
-  color:#1d1d1d;
+  color: #1d1d1d;
   height: 30px;
   width: 30px;
   background-color: white;
@@ -88,15 +105,17 @@ html{
   transition: .5s all;
 }
 
-.homeContact ul li a:hover{
-  color:white;
+.homeContact ul li a:hover {
+  color: white;
   background-color: #1d1d1d;
 
 }
-.product:hover img{
+
+.product:hover img {
   transform: scale(1.05);
 }
-.product{
+
+.product {
   overflow: hidden;
   height: auto;
   width: 100%;
@@ -104,17 +123,20 @@ html{
   object-fit: cover;
   position: relative;
 }
-.product img{
+
+.product img {
   transition: .8s all;
 }
-.productText{
+
+.productText {
   color: white;
   position: absolute;
   top: 35px;
   left: 35px;
   font-weight: 900;
 }
-.eyeIcon i{
+
+.eyeIcon i {
   position: absolute;
   top: 25px;
   right: 85px;
@@ -122,60 +144,73 @@ html{
   font-size: 20px;
   padding: 10px;
   border-radius: 50%;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.3)!important;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3) !important;
   transition: .6s all;
 }
-.linkIcon i{
+
+.linkIcon i {
   position: absolute;
   top: 25px;
   right: 35px;
   color: #fff;
   font-size: 20px;
-  padding: 10px ;
+  padding: 10px;
   border-radius: 50%;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.3)!important;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3) !important;
   transition: .6s all;
 }
-.linkIcon i:hover, .eyeIcon:hover i{
-  color:#1d1d1d;
+
+.linkIcon i:hover,
+.eyeIcon:hover i {
+  color: #1d1d1d;
   background-color: #fff;
 
 }
 
 
 @media screen and (max-width:576px) {
-  .container{
+  .container {
     max-width: 350px !important;
   }
-  .bg_light{
+
+  .bg_light {
     margin-bottom: 15px;
   }
-  .homeContact{
+
+  .homeContact {
     text-align: center;
     margin-top: 2rem !important;
   }
+
   .homeContact ul {
     display: block;
     padding: 0;
     margin-top: 1.5rem;
   }
-  .homeContact ul li{
+
+  .homeContact ul li {
     margin: 0 5px;
   }
-  .imgContainer{
+
+  .imgContainer {
     padding: 0% !important;
   }
-  .topContact{
+
+  .topContact {
     padding: 0% !important;
   }
-  .mt-4{
+
+  .mt-4 {
     margin-top: 1rem !important;
   }
-  body{
+
+  body {
     overflow-x: hidden;
   }
-  .eyeIcon i, .linkIcon i{
+
+  .eyeIcon i,
+  .linkIcon i {
     top: auto;
     bottom: 35px !important;
-  } 
+  }
 }
