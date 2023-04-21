@@ -45,7 +45,7 @@ export default function Main() {
                         <div className=" rounded-5 position-relative p-5 bg_light" >
                             <img src={MyPicture} className='bgImg1' alt="" />
                             <h1 style={{ fontWeight: '700' }}>Hello, I'm Yasir, a web <br />Developer with 2+ years of <br />experience</h1>
-                            <p className='my-4'>As a frontend web developer, I am dedicated to creating visually stunning and highly functional websites that meet the needs of my clients and their users. With a keen eye for design and a passion for clean, efficient code, I strive to create websites that are both beautiful and intuitive, delivering seamless user experiences across all devices.</p>
+                            <p className='my-4'>As a MERN developer, I am dedicated to creating visually stunning and highly functional websites that meet the needs of my clients and their users. With a keen eye for design and a passion for clean, efficient code, I strive to create websites that are both beautiful and intuitive, delivering seamless user experiences across all devices.</p>
                             <div className="homeContact" style={{ marginTop: '5rem' }}>
                                 <a href="mailto:y451rmahar@gmail.com"><button className='btn btnContact rounded-pill px-4 py-2'>Contact Me</button></a>
                                 <ul>
