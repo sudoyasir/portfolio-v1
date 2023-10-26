@@ -1,0 +1,59 @@
+.bgImg1 {
+  background-image: url("./utils/me.jpg");
+  filter: blur(30px) opacity(1);
+  height: 100%;
+  width: 100%;
+  transform-origin: center center;
+  transform: rotate(-90deg) scale(1.6);
+  transition-duration: 15s;
+  background-position: right;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.bg_light:hover .bgImg1 {
+  transform: rotate(0deg);
+}
+
+.bg_light {
+  background-color: #dcdadaaf;
+  cursor: pointer;
+}
+
+.btnContact {
+  color: white;
+  background-color: #1d1d1d;
+  border: 1px #1d1d1d solid !important;
+}
+
+.btnContact:hover {
+  color: #1d1d1d;
+  background-color: transparent;
+  border: 1px #1d1d1d solid !important;
+}
+
+.homeContact ul {
+  display: inline-block;
+}
+
+.homeContact li {
+  display: inline-block;
+  margin: 0% 10px;
+}
+
+.homeContact ul li a {
+  text-decoration: none;
+  color: #1d1d1d;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  padding: 10px 12px;
+  border-radius: 50%;
+  transition: 0.5s all;
+}
+
+.homeContact ul li a:hover {
+  color: white;
+  background-color: #1d1d1d;
+}

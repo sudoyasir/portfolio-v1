@@ -1,0 +1,36 @@
+#NavigationBar img {
+    width: 20px;
+    margin-bottom: 3px;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .logo:hover {
+    color: black;
+  }
+  
+  #NavigationBar ul {
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  #NavigationBar li {
+    display: inline-block;
+  }
+  
+  #NavigationBar ul li a {
+    text-decoration: none;
+    margin: auto 10px;
+    color: #727272;
+  }
+  
+  .active {
+    color: black !important;
+    font-weight: 600;
+  }
+  
