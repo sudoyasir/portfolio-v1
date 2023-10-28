@@ -33,5 +33,36 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({disable: 'mobile'});
+  </script>
+
+  <script>
+    document.addEventListener("visibilitychange", function() {
+    if (document.visibilityState === "visible") {
+      document.title = "Yasir Nawaz";
+    }
+    else
+      document.title = "Hey there 👋";
+});
+  </script>
+
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  setTimeout(function() {
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/63f9c7174247f20fefe28ee5/1gq3r3e1r';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+  }, 10000);
+  </script>
+  <!--End of Tawk.to Script-->
   </body>
 </html>

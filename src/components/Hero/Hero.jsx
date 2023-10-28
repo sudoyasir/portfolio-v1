@@ -20,12 +20,12 @@ const Hero = () => {
                 experience
               </h1>
               <p className="my-4">
-                I am a proficient MERN (MongoDB, Express.js, React.js, Node.js)
-                developer specializing in building dynamic and efficient web
-                applications. With a strong command of the MERN stack, I create
-                seamless user experiences by effectively integrating MongoDB,
-                Express.js, React.js, and Node.js. Passionate about clean code
-                and staying abreast of the latest trends.
+                As a frontend web developer, I am dedicated to creating visually
+                stunning and highly functional websites that meet the needs of
+                my clients and their users. With a keen eye for design and a
+                passion for clean, efficient code, I strive to create websites
+                that are both beautiful and intuitive, delivering seamless user
+                experiences across all devices.
               </p>
               <div className="homeContact" style={{ marginTop: "5rem" }}>
                 <a href="mailto:y451rmahar@gmail.com">

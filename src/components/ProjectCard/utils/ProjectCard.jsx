@@ -1,12 +1,5 @@
 import React from "react";
 import projects from "../../ProjectsInfo/Projects.json";
-import Product1 from './utils/product-1.png'
-import Product2 from './utils/product-2.png'
-import Product3 from './utils/product-3.png'
-import Product4 from './utils/product-4.png'
-import Product5 from './utils/product-5.png'
-import Product6 from './utils/product-6.png'
-
 
 const ProjectCard = () => {
   return (
