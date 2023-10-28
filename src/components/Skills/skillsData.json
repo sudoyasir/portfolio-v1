@@ -1,0 +1,24 @@
+[
+    {
+      "name": "React",
+      "description": "Description for Skill 1",
+      "color": "#61DAFB",
+      "backgroundColor": "#61dafb1c",
+      "icon": "fa-brands fa-react"
+    },
+    {
+      "name": "JavaScript",
+      "description": "Description for Skill 2",
+      "color": "#F7DF1E",
+      "backgroundColor": "#f7df1e38",
+      "icon": "fa-brands fa-square-js"
+    },
+    {
+      "name": "CSS 3",
+      "description": "Description for Skill 3",
+      "color": "#3d58cf",
+      "backgroundColor": "#3d58cf30",
+      "icon": "fa-brands fa-css3-alt"
+    }
+  ]
+  

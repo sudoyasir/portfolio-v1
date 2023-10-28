@@ -1,18 +1,17 @@
 import React from "react";
 import MyPicture from "./utils/me.jpg";
-import "./Hero.css";
 
 const Hero = () => {
   return (
     <section id="hero">
       <div className="container">
-        <div className="row">
+        <div className="row d-flex align-items-stretch">
           <div
-            className="col-md-7 col-sm-12 topContact"
+            className="col-md-7 col-sm-12 topContact "
             data-aos="fade"
             data-aos-duration="2000"
           >
-            <div className=" rounded-5 position-relative p-5 bg_light">
+            <div className=" rounded-5 position-relative p-5 bg_light d-flex h-100 justify-content-center flex-column" >
               <img src={MyPicture} className="bgImg1" alt="" />
               <h1 style={{ fontWeight: "700" }}>
                 Hello, I'm Yasir, a web <br />
@@ -76,11 +75,11 @@ const Hero = () => {
           </div>
 
           <div
-            className="col-md-5 col-sm-12 imgContainer "
+            className="col-md-5 col-sm-12 imgContainer"
             data-aos="fade"
             data-aos-duration="3000"
           >
-            <img src={MyPicture} className="img-fluid rounded-5 " alt="" />
+            <img src={MyPicture} className="img-fluid rounded-5 h-100" alt="" />
           </div>
         </div>
       </div>
