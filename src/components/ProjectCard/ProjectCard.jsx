@@ -39,7 +39,7 @@ const ProjectCard = () => {
       <h2 className="fw-bold">Projects</h2>
       {projects.map((project, index) => (
         <div
-          className="card p-4 rounded-5 mb-3 my-4"
+          className="card p-4 rounded-5 mb-3 my-4 border-0"
           key={index}
           style={{ background: lightColors[index] }}
         >
