@@ -1,0 +1,15 @@
+/* ProjectCard.css */
+@media (max-width: 767px) {
+    .custom-content{
+        text-align: center;
+        gap: 10px;
+    }
+    .custom-content .w-75, .custom-content .w-50{
+        width: 100% !important;
+    }
+    .i-center{
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+  }
+  

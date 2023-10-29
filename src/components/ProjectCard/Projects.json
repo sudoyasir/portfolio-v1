@@ -1,9 +1,16 @@
 [
   {
-    "name": "Homyz",
-    "image": "./projectsImages/product-1.png",
+    "name": "Real Estate Website made in ReactJS",
+    "type": "Website",
+    "languages": ["React", "JSX", "CSS"],
     "liveLink": "https://real-estate-react-8jx.pages.dev/",
-    "githubLink": "https://github.com/yasir2002/real-estate-react",
-    "description": "Homyz is a real estate site made in react with frontend only."
+    "githubLink": "https://github.com/yasir2002/real-estate-react"
+  },
+  {
+    "name": "Random Gradient Generator",
+    "type": "Website",
+    "languages": ["JavaScript", "HTML", "CSS"],
+    "liveLink": "https://yasir2002.github.io/gradient-generator/",
+    "githubLink": "https://github.com/yasir2002/gradient-generator"
   }
 ]
