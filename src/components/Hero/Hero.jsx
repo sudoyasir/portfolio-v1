@@ -36,7 +36,7 @@ const Hero = () => {
                 <ul>
                   <li>
                     <a
-                      href="https://instagram.com/yasirnawazzz"
+                      href="https://instagram.com/stfuyasir"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -45,7 +45,7 @@ const Hero = () => {
                   </li>
                   <li>
                     <a
-                      href="https://twitter.com/YasirsThoughts"
+                      href="https://twitter.com/stfuyasir"
                       target="_blank"
                       rel="noreferrer"
                     >
