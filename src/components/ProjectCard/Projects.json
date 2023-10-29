@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Homyz",
+    "image": "./projectsImages/product-1.png",
+    "liveLink": "https://real-estate-react-8jx.pages.dev/",
+    "githubLink": "https://github.com/yasir2002/real-estate-react",
+    "description": "Homyz is a real estate site made in react with frontend only."
+  }
+]

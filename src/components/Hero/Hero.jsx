@@ -1,5 +1,6 @@
 import React from "react";
 import MyPicture from "./utils/me.jpg";
+import bgImg from "./utils/green.jpg";
 
 const Hero = () => {
   return (
@@ -11,8 +12,8 @@ const Hero = () => {
             data-aos="fade"
             data-aos-duration="2000"
           >
-            <div className=" rounded-5 position-relative p-5 bg_light d-flex h-100 justify-content-center flex-column" >
-              <img src={MyPicture} className="bgImg1" alt="" />
+            <div className=" rounded-5 position-relative p-5 bg_light d-flex h-100 justify-content-center flex-column">
+              <img src={bgImg} className="bgImg1" alt="" />
               <h1 style={{ fontWeight: "700" }}>
                 Hello, I'm Yasir, a web <br />
                 Developer with 2+ years of <br />

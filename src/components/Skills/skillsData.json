@@ -1,24 +1,38 @@
 [
-    {
-      "name": "React",
-      "description": "Description for Skill 1",
-      "color": "#61DAFB",
-      "backgroundColor": "#61dafb1c",
-      "icon": "fa-brands fa-react"
-    },
-    {
-      "name": "JavaScript",
-      "description": "Description for Skill 2",
-      "color": "#F7DF1E",
-      "backgroundColor": "#f7df1e38",
-      "icon": "fa-brands fa-square-js"
-    },
-    {
-      "name": "CSS 3",
-      "description": "Description for Skill 3",
-      "color": "#3d58cf",
-      "backgroundColor": "#3d58cf30",
-      "icon": "fa-brands fa-css3-alt"
-    }
-  ]
-  
+  {
+    "name": "React",
+    "description": "React is a JavaScript library for building user interfaces. It allows developers to create large web applications that can change data, without reloading the page.",
+    "color": "rgb(87, 253, 255)",
+    "icon": "fa-brands fa-react"
+  },
+  {
+    "name": "JavaScript",
+    "description": "JavaScript is a high-level, interpreted programming language that is used to make web pages interactive and provide online programs, such as video games.",
+    "color": "#F7DF1E",
+    "icon": "fa-brands fa-square-js"
+  },
+  {
+    "name": "React Native",
+    "description": "React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android. It allows you to create mobile apps with native performance and user experience using JavaScript and React.",
+    "color": "#3DDC84",
+    "icon": "fa-brands fa-android"
+  },
+  {
+    "name": "CSS 3",
+    "description": "CSS3 is the latest evolution of the Cascading Style Sheets language. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions, animations, and more.",
+    "color": "#3d58cf",
+    "icon": "fa-brands fa-css3-alt"
+  },
+  {
+    "name": "HTML 5",
+    "description": "HTML5 is the latest version of Hypertext Markup Language, the code that describes web pages. It's a significant update to the previous version, incorporating new features, including video playback and drag-and-drop capabilities.",
+    "color": "#ff6007",
+    "icon": "fa-brands fa-html5"
+  },
+  {
+    "name": "Bootstrap",
+    "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+    "color": "#c000ff",
+    "icon": "fa-brands fa-bootstrap"
+  }
+]
