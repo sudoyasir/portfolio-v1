@@ -35,7 +35,7 @@ const lightColors = [
 
 const ProjectCard = () => {
   return (
-    <div className="container my-5" id="project`">
+    <div className="container my-5" id="projects">
       <h2 className="fw-bold">Projects</h2>
       {projects.map((project, index) => (
         <div
