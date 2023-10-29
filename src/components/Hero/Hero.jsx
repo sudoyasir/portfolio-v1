@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="col-md-7 col-sm-12 topContact ">
             <div className=" rounded-5 position-relative p-5 bg_light d-flex h-100 justify-content-center flex-column">
               <img src={bgImg} className="bgImg1" alt="" />
-              <h1 style={{ fontWeight: "700" }}>
+              <h1 style={{ fontWeight: "500", fontSize: "35px"}}>
                 Hello, I'm Yasir, a MERN <br />
                 Developer with a passion for <br />
                 clean and efficient code
@@ -77,7 +77,7 @@ const Hero = () => {
             data-aos="fade"
             data-aos-duration="3000"
           >
-            <img src={MyPicture} className=" rounded-5 h-100" alt="Hero Image" style={{width: "90%"}} />
+            <img src={MyPicture} className=" rounded-5 h-100" alt="Hero" style={{width: "90%"}} />
           </div>
         </div>
       </div>

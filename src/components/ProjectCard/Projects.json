@@ -12,5 +12,12 @@
     "languages": ["JavaScript", "HTML", "CSS"],
     "liveLink": "https://yasir2002.github.io/gradient-generator/",
     "githubLink": "https://github.com/yasir2002/gradient-generator"
+  },
+  {
+    "name": "React Personal Portfolio",
+    "type": "Website",
+    "languages": ["React", "JSX","Bootstrap", "CSS"],
+    "liveLink": "https://yasir2002.github.io/",
+    "githubLink": "https://github.com/yasir2002/yasir2002.github.io"
   }
 ]

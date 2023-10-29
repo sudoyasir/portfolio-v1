@@ -1,11 +1,14 @@
 import React from "react";
-import projects from "./Projects.json";
 import "../../index.css";
-import project1 from "./projectsImages/project1.png";
-import project2 from "./projectsImages/project2.png";
 import "./ProjectCard.css"
 
-const images = [project1, project2]; // You can add more images here if needed
+import projects from "./Projects.json";
+
+import project1 from "./projectsImages/project1.png";
+import project2 from "./projectsImages/project2.png";
+import project3 from "./projectsImages/project3.png"
+
+const images = [project1, project2, project3];
 
 const getIcon = (language) => {
   switch (language) {
@@ -19,6 +22,8 @@ const getIcon = (language) => {
       return { className: "fab fa-html5", color: "#E34F26" };
     case "JavaScript":
       return { className: "fab fa-js", color: "#F7DF1E" };
+      case "Bootstrap":
+        return { className: "fab fa-bootstrap", color: "#a500ff" };
     default:
       return { className: "", color: "" };
   }
