@@ -1,6 +1,6 @@
 # Project Title
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yourusername/yourprojectname/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yasir2002/yasir2002.github.io/blob/main/LICENSE)
 
 ## Description
 
