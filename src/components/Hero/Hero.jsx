@@ -11,9 +11,9 @@ const Hero = () => {
           <div className="col-md-7 col-sm-12 topContact ">
             <div className=" rounded-5 position-relative p-5 bg_light d-flex h-100 justify-content-center flex-column">
               <img src={bgImg} className="bgImg1" alt="" />
-              <h1 style={{ fontWeight: "500", fontSize: "35px"}}>
-                Hello, I'm Yasir, a MERN <br />
-                Developer with a passion for <br />
+              <h1 style={{ fontWeight: "500", fontSize: "35px"}} className="pe-4">
+                Hello, I'm Yasir, a MERN
+                Developer with a passion for
                 clean and efficient code
               </h1>
               <p className="my-4">
