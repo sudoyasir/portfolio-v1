@@ -1,6 +1,7 @@
 import React from "react";
 import MyPicture from "./utils/me.jpg";
 import bgImg from "./utils/green.jpg";
+import "../../index.css"
 
 const Hero = () => {
   return (
@@ -15,21 +16,20 @@ const Hero = () => {
             <div className=" rounded-5 position-relative p-5 bg_light d-flex h-100 justify-content-center flex-column">
               <img src={bgImg} className="bgImg1" alt="" />
               <h1 style={{ fontWeight: "700" }}>
-                Hello, I'm Yasir, a web <br />
-                Developer with 2+ years of <br />
-                experience
+                Hello, I'm Yasir, a MERN <br />
+                Developer with a passion for <br />
+                clean and efficient code
               </h1>
               <p className="my-4">
-                As a frontend web developer, I am dedicated to creating visually
-                stunning and highly functional websites that meet the needs of
-                my clients and their users. With a keen eye for design and a
-                passion for clean, efficient code, I strive to create websites
-                that are both beautiful and intuitive, delivering seamless user
-                experiences across all devices.
+                As a MERN developer, I am dedicated to creating highly
+                functional full-stack applications. With a passion for clean,
+                efficient code and a focus on delivering seamless user
+                experiences, I strive to develop applications that are both
+                robust and user-friendly.
               </p>
               <div className="homeContact" style={{ marginTop: "5rem" }}>
                 <a href="mailto:y451rmahar@gmail.com">
-                  <button className="btn btnContact rounded-pill px-4 py-2">
+                  <button className="btn btnContact rounded-pill px-4 py-2 button-pulse">
                     Contact Me
                   </button>
                 </a>

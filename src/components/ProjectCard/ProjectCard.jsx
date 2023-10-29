@@ -66,7 +66,7 @@ const ProjectCard = () => {
                 })}
               </div>
 
-              <div className="d-flex i-center">
+              <div className="d-flex i-center mt-3">
                 <a
                   href={project.liveLink}
                   target="_blank"

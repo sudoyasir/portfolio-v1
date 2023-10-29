@@ -16,9 +16,9 @@ const Footer = () => {
         >
           y451rmahar@gmail.com
         </a>
-        <div className="homeContact" style={{ marginTop: "5rem" }}>
+        <div className="homeContact" style={{ marginTop: "4rem" }}>
           <a href="mailto:y451rmahar@gmail.com">
-            <button className="btn btnContact rounded-pill px-4 py-2">
+            <button className="btn btnContact rounded-pill px-4 py-2 button-pulse">
               Contact Me
             </button>
           </a>
