@@ -8,7 +8,7 @@
   {
     "name": "JavaScript",
     "description": "JavaScript is a high-level, interpreted programming language that is used to make web pages interactive and provide online programs, such as video games.",
-    "color": "#F7DF1E",
+    "color": "#e3e137",
     "icon": "fa-brands fa-square-js"
   },
   {
@@ -16,6 +16,12 @@
     "description": "React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android. It allows you to create mobile apps with native performance and user experience using JavaScript and React.",
     "color": "#3DDC84",
     "icon": "fa-brands fa-android"
+  },
+  {
+    "name": "Git",
+    "description": "Git is a distributed version control system that is widely used for tracking changes in source code during software development. It allows multiple developers to collaborate on a project while keeping track of each change made to the codebase.",
+    "color": "#ff3525",
+    "icon": "fa-brands fa-git-alt"
   },
   {
     "name": "CSS 3",

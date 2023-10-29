@@ -48,7 +48,7 @@ const ProjectCard = () => {
               <h5 className="" style={{ color: "#8602ff" }}>
                 {project.type}
               </h5>
-              <h1 className="fw-bold w-75">{project.name}</h1>
+              <h2 className="fw-bold w-75">{project.name}</h2>
               <div className="d-flex justify-content-around w-50">
                 {project.languages.map((language, langIndex) => {
                   const { className, color } = getIcon(language);
