@@ -12,6 +12,10 @@ html {
   width: 20px;
   margin-bottom: 3px;
 }
+.progress-bar{
+  background-color: #00ff78 !important;
+
+}
 
 .logo {
   text-decoration: none;

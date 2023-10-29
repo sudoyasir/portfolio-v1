@@ -18,8 +18,15 @@ const ProgressBar = () => {
   }, []);
 
   return (
-    <div className="topProgressBar-Container">
-      <div className="topProgress-bar position-fixed top-0" style={{ width: scroll , height: "5px", background: "#00ff78", zIndex: "333"}}/>
+    <div className="progress-container">
+      <div
+        className="progress-bar position-fixed top-0"
+        style={{
+          width: scroll,
+          height: "5px",
+          zIndex: "333",
+        }}
+      />
     </div>
   );
 };
