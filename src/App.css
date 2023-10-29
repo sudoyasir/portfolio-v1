@@ -214,6 +214,9 @@ html {
   background-color: #fff;
 }
 
+
+/* Mobile Responsive */
+
 @media screen and (max-width: 576px) {
   .container {
     max-width: 350px !important;
@@ -226,16 +229,29 @@ html {
   .homeContact {
     text-align: center;
     margin-top: 2rem !important;
+    display: block !important;
   }
 
   .homeContact ul {
-    display: block;
+    flex-direction: row;
     padding: 0;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
+    justify-content: center;
   }
-
+  .imgContainer img{
+    width: 100% !important;
+  }
+  .topContact .p-5{
+    padding: 1.5rem !important;
+  }
+  .topContact h1{
+    font-size: 30px !important;
+  }
   .homeContact ul li {
     margin: 0 5px;
+  }
+  .homeContact ul li a{
+    margin: 0%;
   }
 
   .topContact {
