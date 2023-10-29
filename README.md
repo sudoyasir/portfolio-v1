@@ -38,9 +38,8 @@ Describe how to use your website, including any special instructions or features
 
 - React.js
 - HTML
-- CSS
+- SASS
 - JavaScript
-- [Additional technologies used in your project]
 
 ## Contributing
 

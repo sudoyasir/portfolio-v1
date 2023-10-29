@@ -1,6 +1,6 @@
 import React from "react";
-import "../../index.css";
-import "./ProjectCard.css"
+import "../../index.scss";
+import "./ProjectCard.scss"
 
 import projects from "./Projects.json";
 

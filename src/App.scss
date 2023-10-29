@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
-
 body {
-  font-family: "Lato", sans-serif;
-  overflow-x: hidden;
+  font-family:"Lato", sans-serif;
+  overflow-x:hidden;
 }
 
 html {
@@ -214,7 +213,6 @@ html {
   background-color: #fff;
 }
 
-
 /* Mobile Responsive */
 
 @media screen and (max-width: 576px) {
@@ -238,19 +236,19 @@ html {
     margin-top: 2rem;
     justify-content: center;
   }
-  .imgContainer img{
+  .imgContainer img {
     width: 100% !important;
   }
-  .topContact .p-5{
+  .topContact .p-5 {
     padding: 1.5rem !important;
   }
-  .topContact h1{
+  .topContact h1 {
     font-size: 30px !important;
   }
   .homeContact ul li {
     margin: 0 5px;
   }
-  .homeContact ul li a{
+  .homeContact ul li a {
     margin: 0%;
   }
 

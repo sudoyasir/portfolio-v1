@@ -1,7 +1,7 @@
 import React from "react";
 import MyPicture from "./utils/me.jpg";
 import bgImg from "./utils/green.jpg";
-import "../../index.css";
+import "../../index.scss";
 
 const Hero = () => {
   return (
