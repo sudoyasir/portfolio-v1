@@ -3,7 +3,7 @@ import MyPicture from '../Hero/utils/me.jpg'
 
 const Footer = () => {
   return (
-    <section id="footer">
+    <section id="footer container">
       <div className="container mt-4 rounded-5 position-relative p-5 bg_light">
         <img src={MyPicture} className="bgImg1" alt="" />
         <h1 style={{ fontWeight: "700" }}>Want to work together?</h1>
@@ -16,20 +16,20 @@ const Footer = () => {
         >
           y451rmahar@gmail.com
         </a>
-        <div className="homeContact" style={{ marginTop: "4rem" }}>
+        <div className="homeContact d-flex align-items-center" style={{ marginTop: "4rem" }}>
           <a href="mailto:y451rmahar@gmail.com">
             <button className="btn btnContact rounded-pill px-4 py-2 button-pulse">
               Contact Me
             </button>
           </a>
-          <ul>
+          <ul className="mb-0">
             <li>
               <a
                 href="https://instagram.com/stfuyasir"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-instagram"></i>
+                <i className="fa fa-instagram icon"></i>
               </a>
             </li>
             <li>
@@ -38,7 +38,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-twitter"></i>
+                <i className="fa fa-twitter icon"></i>
               </a>
             </li>
             <li>
@@ -47,7 +47,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-linkedin"></i>
+                <i className="fa fa-linkedin icon"></i>
               </a>
             </li>
             <li>
@@ -56,7 +56,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-github"></i>
+                <i className="fa fa-github icon"></i>
               </a>
             </li>
           </ul>

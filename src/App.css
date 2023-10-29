@@ -12,9 +12,8 @@ html {
   width: 20px;
   margin-bottom: 3px;
 }
-.progress-bar{
+.progress-bar {
   background-color: #00ff78 !important;
-
 }
 
 .logo {
@@ -81,30 +80,79 @@ html {
   border: 1px #1d1d1d solid !important;
 }
 
+/* Social buttons styling start */
 .homeContact ul {
-  display: inline-block;
+  display: flex;
 }
 
-.homeContact li {
-  display: inline-block;
-  margin: 0% 10px;
+.homeContact ul li {
+  list-style: none;
 }
 
 .homeContact ul li a {
-  text-decoration: none;
-  color: #1d1d1d;
-  height: 30px;
-  width: 30px;
-  background-color: white;
-  padding: 10px 12px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 45px;
+  font-size: 25px;
+  margin: 0 10px;
+  display: block;
   border-radius: 50%;
-  transition: 0.5s all;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+  transition: 300ms all;
 }
 
-.homeContact ul li a:hover {
-  color: white;
-  background-color: #1d1d1d;
+.homeContact ul li a .icon {
+  position: relative;
+  color: #262626;
+  transition: 0.5s;
+  z-index: 3;
 }
+
+.homeContact ul li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.homeContact ul li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.5s;
+  z-index: 2;
+}
+.homeContact ul li a:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homeContact ul li a:hover:before {
+  top: 0;
+}
+
+.homeContact ul li:nth-child(1) a:before {
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #f77737, #fcaf45);
+}
+
+.homeContact ul li:nth-child(2) a:before {
+  background: #55acee;
+}
+
+.homeContact ul li:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+.homeContact ul li:nth-child(4) a:before {
+  background: #000000;
+}
+/* Social buttons styling end */
 
 .rounded-5 {
   border-radius: 24px;

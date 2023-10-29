@@ -1,18 +1,14 @@
 import React from "react";
 import MyPicture from "./utils/me.jpg";
 import bgImg from "./utils/green.jpg";
-import "../../index.css"
+import "../../index.css";
 
 const Hero = () => {
   return (
     <section id="hero">
       <div className="container">
         <div className="row d-flex align-items-stretch">
-          <div
-            className="col-md-7 col-sm-12 topContact "
-            data-aos="fade"
-            data-aos-duration="2000"
-          >
+          <div className="col-md-7 col-sm-12 topContact ">
             <div className=" rounded-5 position-relative p-5 bg_light d-flex h-100 justify-content-center flex-column">
               <img src={bgImg} className="bgImg1" alt="" />
               <h1 style={{ fontWeight: "700" }}>
@@ -27,20 +23,21 @@ const Hero = () => {
                 experiences, I strive to develop applications that are both
                 robust and user-friendly.
               </p>
-              <div className="homeContact" style={{ marginTop: "5rem" }}>
+
+              <div className="homeContact d-flex align-items-center" style={{ marginTop: "3rem" }}>
                 <a href="mailto:y451rmahar@gmail.com">
                   <button className="btn btnContact rounded-pill px-4 py-2 button-pulse">
                     Contact Me
                   </button>
                 </a>
-                <ul>
+                <ul className="mb-0">
                   <li>
                     <a
                       href="https://instagram.com/stfuyasir"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <i className="fa fa-instagram"></i>
+                      <i className="fa fa-instagram icon"></i>
                     </a>
                   </li>
                   <li>
@@ -49,7 +46,7 @@ const Hero = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <i className="fa fa-twitter"></i>
+                      <i className="fa fa-twitter icon"></i>
                     </a>
                   </li>
                   <li>
@@ -58,7 +55,7 @@ const Hero = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <i className="fa fa-linkedin"></i>
+                      <i className="fa fa-linkedin icon"></i>
                     </a>
                   </li>
                   <li>
@@ -67,7 +64,7 @@ const Hero = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <i className="fa fa-github"></i>
+                      <i className="fa fa-github icon"></i>
                     </a>
                   </li>
                 </ul>
@@ -80,7 +77,7 @@ const Hero = () => {
             data-aos="fade"
             data-aos-duration="3000"
           >
-            <img src={MyPicture} className="img-fluid rounded-5 h-100" alt="" />
+            <img src={MyPicture} className=" rounded-5 h-100" alt="Hero Image" style={{width: "90%"}} />
           </div>
         </div>
       </div>
