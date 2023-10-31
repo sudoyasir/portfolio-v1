@@ -8,7 +8,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container-fluid">
             <a className="navbar-brand" href="http://yasir2002.github.io/portfolio">
-              <img src={Logo} alt="" /> <b> &nbsp;Yasir</b>
+              <img src={Logo} alt="" /> <b className="text-white"> &nbsp;Yasir </b>
             </a>
             <button
               className="navbar-toggler"

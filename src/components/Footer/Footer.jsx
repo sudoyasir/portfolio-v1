@@ -12,9 +12,9 @@ const Footer = () => {
         </p>
         <a
           href="mailto:y451rmahar@gmail.com"
-          style={{ textDecoration: "none", color: "#1d1d1d" }}
+          style={{ textDecoration: "none", color: "#fff" }}
         >
-          y451rmahar@gmail.com
+          <i class="fa-solid fa-paper-plane"></i> y451rmahar@gmail.com
         </a>
         <div className="homeContact d-flex align-items-center" style={{ marginTop: "4rem" }}>
           <a href="mailto:y451rmahar@gmail.com">

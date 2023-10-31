@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="col-md-7 col-sm-12 topContact ">
             <div className=" rounded-5 position-relative p-5 bg_light d-flex h-100 justify-content-center flex-column">
               <img src={bgImg} className="bgImg1" alt="" />
-              <h1 style={{ fontWeight: "500", fontSize: "35px"}} className="pe-4">
+              <h1 style={{ fontWeight: "700", fontSize: "35px"}} className="pe-4">
                 Hello, I'm Yasir, a MERN
                 Developer with a passion for
                 clean and efficient code
@@ -73,11 +73,11 @@ const Hero = () => {
           </div>
 
           <div
-            className="col-md-5 col-sm-12 imgContainer"
+            className="col-md-5 col-sm-12 imgContainer d-flex justify-content-center"
             data-aos="fade"
             data-aos-duration="3000"
           >
-            <img src={MyPicture} className=" rounded-5 h-100" alt="Hero" style={{width: "90%"}} />
+            <img src={MyPicture} className=" rounded-5" alt="Hero" style={{width: "90%"}} />
           </div>
         </div>
       </div>

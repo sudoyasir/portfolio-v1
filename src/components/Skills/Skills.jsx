@@ -6,13 +6,13 @@ import skillsData from "./skillsData.json";
 const Skills = () => {
   return (
     <div className="container my-5">
-      <h2 className="fw-bold">Skills</h2>
+      <h2 className="fw-bold text-white">Skills</h2>
       <div className="row my-4">
         {skillsData.map((skill, index) => (
           <div className="col-md-4" key={index}>
             <div
-              className="card rounded-5 mb-4 border-0 p-3"
-              style={{ backgroundColor: "rgb(34, 34, 34)" }}
+              className="card rounded-5 mb-4 border-0 p-3 shadow"
+              style={{ backgroundColor: "rgb(22 22 22)" }}
             >
               <div className="card-body d-flex justify-content-between align-items-center">
                 <div>

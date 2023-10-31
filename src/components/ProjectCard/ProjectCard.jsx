@@ -1,12 +1,12 @@
 import React from "react";
 import "../../index.scss";
-import "./ProjectCard.scss"
+import "./ProjectCard.scss";
 
 import projects from "./Projects.json";
 
 import project1 from "./projectsImages/project1.png";
 import project2 from "./projectsImages/project2.png";
-import project3 from "./projectsImages/project3.png"
+import project3 from "./projectsImages/project3.png";
 
 const images = [project1, project2, project3];
 
@@ -22,39 +22,32 @@ const getIcon = (language) => {
       return { className: "fab fa-html5", color: "#E34F26" };
     case "JavaScript":
       return { className: "fab fa-js", color: "#F7DF1E" };
-      case "Bootstrap":
-        return { className: "fab fa-bootstrap", color: "#a500ff" };
+    case "Bootstrap":
+      return { className: "fab fa-bootstrap", color: "#a500ff" };
     default:
-      return { className: "", color: "" };
+      return { className: "fa-solid fa-question", color: "red" };
   }
 };
-
-const lightColors = [
-  "#f5f5f5",
-  "#e8f5e9",
-  "#f3e5f5",
-  "#fff9c4",
-  "#e1f5fe",
-  "#fce4ec",
-];
 
 const ProjectCard = () => {
   return (
     <div className="container my-5" id="projects">
-      <h2 className="fw-bold">Projects</h2>
+      <h2 className="fw-bold text-white">Projects</h2>
       {projects.map((project, index) => (
         <div
-          className="card p-4 rounded-5 mb-3 my-4 border-0"
+          className="card p-4 rounded-5 mb-3 my-4 border-0 shadow"
+          style={{ backgroundColor: "rgb(22, 22, 22)" }}
           key={index}
-          style={{ background: lightColors[index] }}
         >
           <div className="row">
             <div className="col-md-7 d-flex flex-column justify-content-around custom-content">
               <h5 className="" style={{ color: "#8602ff" }}>
                 {project.type}
               </h5>
-              <h2 className="fw-bold w-75">{project.name}</h2>
-              <div className="d-flex justify-content-around w-50">
+              <h2 className="fw-bold w-75 text-white">{project.name}</h2>
+              <div className="d-flex justify-content-around w-50"
+                style={{color: "white"}}
+              >
                 {project.languages.map((language, langIndex) => {
                   const { className, color } = getIcon(language);
                   return (

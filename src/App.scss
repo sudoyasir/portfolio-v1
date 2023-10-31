@@ -2,6 +2,7 @@
 body {
   font-family:"Lato", sans-serif;
   overflow-x:hidden;
+  background-color: #1d1d1d;
 }
 
 html {
@@ -17,12 +18,12 @@ html {
 
 .logo {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
 .logo:hover {
-  color: black;
+  color: white;
 }
 
 #NavigationBar ul {
@@ -37,11 +38,11 @@ html {
 #NavigationBar ul li a {
   text-decoration: none;
   margin: auto 10px;
-  color: #727272;
+  color: white;
 }
 
 .active {
-  color: black !important;
+  color: white !important;
   font-weight: 600;
 }
 .bgImg1 {
@@ -63,20 +64,25 @@ html {
 }
 
 .bg_light {
-  background-color: #dcdadaaf;
+  background-color: #333333af;
   cursor: pointer;
-}
-
-.btnContact {
   color: white;
-  background-color: #1d1d1d;
-  border: 1px #1d1d1d solid !important;
+}
+.bg_light p{
+  color: rgb(192, 192, 192);
+}
+.btnContact {
+  color: #262626;
+  background-color: #fff;
+  border: 1px #fff solid !important;
+  font-weight: bold;
+  transition: 400ms all !important;
 }
 
 .btnContact:hover {
-  color: #1d1d1d;
+  color: #fff;
   background-color: transparent;
-  border: 1px #1d1d1d solid !important;
+  border: 1px #fff solid !important;
 }
 
 /* Social buttons styling start */
