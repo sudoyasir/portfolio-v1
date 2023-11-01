@@ -3,7 +3,7 @@
 Welcome to my portfolio! This website showcases my work as a MERN developer and provides information about my skills, experience, and contact details. 🌟 
 <br>
 
-[Live Demo 👓](https://yasir2002.github.io/)
+[Live Demo 📺](https://yasir2002.github.io/)
 
 ## Table of Contents
 
