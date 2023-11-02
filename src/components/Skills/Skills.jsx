@@ -11,8 +11,8 @@ const Skills = () => {
         {skillsData.map((skill, index) => (
           <div className="col-md-4" key={index}>
             <div
-              className="card rounded-5 mb-4 border-0 p-3 shadow"
-              style={{ backgroundColor: "rgb(22 22 22)" }}
+              className="card rounded-5 mb-4 border-0 p-3 shadow skillsCard"
+              style={{ backgroundColor: "rgb(22 22 22)", cursor: "pointer"}}
             >
               <div className="card-body d-flex justify-content-between align-items-center">
                 <div>

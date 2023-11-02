@@ -5,10 +5,14 @@ const Header = () => {
   return (
     <section id="NavigationBar" data-aos="fade" data-aos-duration="4000">
       <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-dark">
           <div className="container-fluid">
-            <a className="navbar-brand" href="http://yasir2002.github.io/portfolio">
-              <img src={Logo} alt="" /> <b className="text-white"> &nbsp;Yasir </b>
+            <a
+              className="navbar-brand"
+              href="http://yasir2002.github.io/portfolio"
+            >
+              <img src={Logo} alt="" />{" "}
+              <b className="text-white"> &nbsp;Yasir </b>
             </a>
             <button
               className="navbar-toggler"
@@ -21,7 +25,10 @@ const Header = () => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <a

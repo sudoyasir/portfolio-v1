@@ -3,7 +3,7 @@ import MyPicture from '../Hero/utils/me.jpg'
 
 const Footer = () => {
   return (
-    <section id="footer" className="container">
+    <section id="footer" className="container mb-2">
       <div className="container mt-4 rounded-5 position-relative p-5 bg_light">
         <img src={MyPicture} className="bgImg1" alt="" />
         <h1 style={{ fontWeight: "700" }}>Want to work together?</h1>

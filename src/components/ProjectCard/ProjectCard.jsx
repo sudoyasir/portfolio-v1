@@ -35,14 +35,14 @@ const ProjectCard = () => {
       <h2 className="fw-bold text-white">Projects</h2>
       {projects.map((project, index) => (
         <div
-          className="card p-4 rounded-5 mb-3 my-4 border-0 shadow"
+          className="card p-4 rounded-5 mb-3 my-4 border-0 shadow projectsCard"
           style={{ backgroundColor: "rgb(22, 22, 22)" }}
           key={index}
         >
           <div className="row">
             <div className="col-md-7 d-flex flex-column justify-content-around custom-content">
-              <h5 className="" style={{ color: "#8602ff" }}>
-                {project.type}
+              <h5 className="" style={{ color: "#00ff7779" }}>
+              <i class="fa-solid fa-tag"></i> {project.type}
               </h5>
               <h2 className="fw-bold w-75 text-white">{project.name}</h2>
               <div className="d-flex justify-content-around w-50"
@@ -70,7 +70,6 @@ const ProjectCard = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="btn text-white fw-bold"
-                  style={{ backgroundColor: "#8602ff" }}
                 >
                   Visit Site <i className="fa fa-link"></i>
                 </a>
@@ -78,8 +77,7 @@ const ProjectCard = () => {
                   href={project.githubLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="btn text-white fw-bold ms-2"
-                  style={{ backgroundColor: "#8602ff" }}
+                  className="btn rounded-circle text-white fw-bold ms-2"
                 >
                   <i className="fa fa-github"></i>
                 </a>

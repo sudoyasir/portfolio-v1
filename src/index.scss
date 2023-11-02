@@ -1,9 +1,41 @@
+// Call to action button "Contact Me"
 .button-pulse {
-    animation: pulse 2s infinite 3s cubic-bezier(0.25, 0, 0, 1);
-    box-shadow: 0 0 0 0 #bdbdbd4a;
+  animation: pulse 2s infinite 3s cubic-bezier(0.25, 0, 0, 1);
+  box-shadow: 0 0 0 0 #bdbdbd4a;
+}
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 18px rgba(255, 255, 255, 0);
   }
-  @keyframes pulse {
-    to {
-      box-shadow: 0 0 0 18px rgba(255, 255, 255, 0);
-    }
-  }
+}
+
+.scroll-to-top {
+  color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1000;
+  background-color: #00c85e;
+  border: #00c85e 2px solid;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s, visibility 1s;
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.4s, visibility 0.4s;
+}
+
+.scroll-to-top i {
+  font-size: 20px;
+}
+
+.scroll-to-top:hover {
+  background-color: transparent !important;
+  border: 2px solid #fff;
+}
+
