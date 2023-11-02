@@ -108,11 +108,11 @@ html {
 }
 
 .homeContact ul li a {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-color: #fff;
   text-align: center;
-  line-height: 45px;
+  line-height: 39px;
   font-size: 25px;
   margin: 0 10px;
   display: block;
@@ -129,6 +129,7 @@ html {
   color: #262626;
   transition: 0.5s;
   z-index: 3;
+  font-size: 22px;
 }
 
 .homeContact ul li a:hover .icon {
