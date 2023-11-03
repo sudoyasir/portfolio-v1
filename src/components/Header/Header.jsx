@@ -1,7 +1,23 @@
 import React from "react";
 import Logo from "../../images/logo.png";
+import CV from "../../cv.pdf";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Header = () => {
+  const handleDownload = () => {
+    toast.success("CV is Downloaded! 🚀", {
+      position: "bottom-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+  };
+
   return (
     <section id="NavigationBar" data-aos="fade" data-aos-duration="4000">
       <div className="container">
@@ -47,6 +63,18 @@ const Header = () => {
                 <li className="nav-item">
                   <a className="nav-link" href="#footer">
                     Contact
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    href={CV}
+                    download="Yasir's CV"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="nav-link rounded-pill px-3 CVBtn"
+                    onClick={handleDownload}
+                  >
+                    <i className="fa fa-download"></i> Download CV
                   </a>
                 </li>
               </ul>

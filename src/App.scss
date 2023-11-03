@@ -124,6 +124,18 @@ html {
   transition: 300ms all;
 }
 
+// download cv button start
+.CVBtn{
+  background-color: #00ff78;
+  color: #1d1d1d !important;
+  border: 1px #1d1d1d solid;
+}
+.CVBtn:hover{
+  color: #00ff78 !important;
+  background-color: transparent !important;
+  border: #00ff78 1px solid;
+}
+// download cv button end
 .homeContact ul li a .icon {
   position: relative;
   color: #262626;
@@ -178,30 +190,29 @@ html {
   overflow: hidden;
 }
 // Skills Section
-.skillsCard{
+.skillsCard {
   transition: transform 300ms;
 }
-.skillsCard:hover{
+.skillsCard:hover {
   transform: scale(1.03);
 }
 // Projects Section
-.projectsCard{
+.projectsCard {
   transition: transform 300ms;
 }
-.projectsCard:hover{
+.projectsCard:hover {
   transform: scale(1.01);
 }
-.projectsCard .btn{
+.projectsCard .btn {
   background-color: #00ff78 !important;
   color: #1d1d1d !important;
   border-radius: 3px;
   border: 1px #00ff78 solid !important;
 }
-.projectsCard .btn:hover{
+.projectsCard .btn:hover {
   border: 1px #00ff78 solid !important;
   color: #00ff78 !important;
   background-color: transparent !important;
-
 }
 
 /* Mobile Responsive */

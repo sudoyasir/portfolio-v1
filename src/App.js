@@ -8,6 +8,7 @@ import ProjectCard from "./components/ProjectCard/ProjectCard";
 import Skills from "./components/Skills/Skills";
 import { HashLoader } from "react-spinners";
 import ScrollToTopButton from "./components/ScrollTopBtn/ScrollTopBtn";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const [showSpinner, setShowSpinner] = useState(true);
@@ -35,6 +36,7 @@ function App() {
       ) : (
         <div>
           <ProgressBar />
+          <ToastContainer />
           <Header />
           <Hero />
           <Skills />
