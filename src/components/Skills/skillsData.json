@@ -1,44 +1,93 @@
 [
   {
     "name": "React",
+    "category": "Frontend",
     "description": "React is a JavaScript library for building user interfaces. It allows developers to create large web applications that can change data, without reloading the page.",
     "color": "rgb(87, 253, 255)",
     "icon": "fa-brands fa-react"
   },
   {
     "name": "JavaScript",
+    "category": "Frontend",
     "description": "JavaScript is a high-level, interpreted programming language that is used to make web pages interactive and provide online programs, such as video games.",
     "color": "#e3e137",
     "icon": "fa-brands fa-square-js"
   },
   {
-    "name": "React Native",
-    "description": "React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android. It allows you to create mobile apps with native performance and user experience using JavaScript and React.",
-    "color": "#3DDC84",
-    "icon": "fa-brands fa-android"
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.",
+    "color": "#3c873a",
+    "icon": "fa-brands fa-node-js"
+  },
+  {
+    "name": "Express",
+    "category": "Backend",
+    "description": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
+    "color": "#3c873a",
+    "icon": "fa-brands fa-node-js"
+  },
+  {
+    "name": "MongoDB",
+    "category": "Backend",
+    "description": "MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.",
+    "color": "#3c873a",
+    "icon": "fa-brands fa-node-js"
+  },
+  {
+    "name": "Mongoose",
+    "category": "Backend",
+    "description": "Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB.",
+    "color": "#3c873a",
+    "icon": "fa-brands fa-node-js"
+  },
+  {
+    "name": "Redux",
+    "category": "Frontend",
+    "description": "Redux is an open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.",
+    "color": "#764abc",
+    "icon": "fa-brands fa-react"
+  },
+  {
+    "name": "NPM",
+    "category": "Tools",
+    "description": "npm, short for Node Package Manager, is a widely used package manager for the JavaScript programming language. It serves as a central repository for open-source JavaScript tools and libraries, allowing developers to easily discover, share, and reuse code. ",
+    "color": "#eb0033",
+    "icon": "fa-brands fa-npm"
   },
   {
     "name": "Git",
+    "category": "Tools",
     "description": "Git is a distributed version control system that is widely used for tracking changes in source code during software development. It allows multiple developers to collaborate on a project while keeping track of each change made to the codebase.",
     "color": "#ff3525",
     "icon": "fa-brands fa-git-alt"
   },
   {
     "name": "CSS 3",
+    "category": "Frontend",
     "description": "CSS3 is the latest evolution of the Cascading Style Sheets language. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions, animations, and more.",
     "color": "#3d58cf",
     "icon": "fa-brands fa-css3-alt"
   },
   {
     "name": "HTML 5",
+    "category": "Frontend",
     "description": "HTML5 is the latest version of Hypertext Markup Language, the code that describes web pages. It's a significant update to the previous version, incorporating new features, including video playback and drag-and-drop capabilities.",
     "color": "#ff6007",
     "icon": "fa-brands fa-html5"
   },
   {
     "name": "Bootstrap",
+    "category": "Frontend",
     "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
     "color": "#c000ff",
     "icon": "fa-brands fa-bootstrap"
+  },
+  {
+    "name": "Tailwind CSS",
+    "category": "Frontend",
+    "description": "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.",
+    "color": "#06b6d4",
+    "icon": "fa-solid fa-brush"
   }
 ]

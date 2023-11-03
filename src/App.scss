@@ -125,12 +125,12 @@ html {
 }
 
 // download cv button start
-.CVBtn{
+.CVBtn {
   background-color: #00ff78;
   color: #1d1d1d !important;
   border: 1px #1d1d1d solid;
 }
-.CVBtn:hover{
+.CVBtn:hover {
   color: #00ff78 !important;
   background-color: transparent !important;
   border: #00ff78 1px solid;
@@ -206,8 +206,8 @@ html {
 .projectsCard .btn {
   background-color: #00ff78 !important;
   color: #1d1d1d !important;
-  border-radius: 3px;
   border: 1px #00ff78 solid !important;
+  transition: 400ms all !important;
 }
 .projectsCard .btn:hover {
   border: 1px #00ff78 solid !important;

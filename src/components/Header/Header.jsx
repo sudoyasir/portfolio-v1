@@ -71,7 +71,7 @@ const Header = () => {
                     download="Yasir's CV"
                     target="_blank"
                     rel="noreferrer"
-                    className="nav-link rounded-pill px-3 CVBtn"
+                    className="nav-link rounded-pill px-3 CVBtn text-center"
                     onClick={handleDownload}
                   >
                     <i className="fa fa-download"></i> Download CV

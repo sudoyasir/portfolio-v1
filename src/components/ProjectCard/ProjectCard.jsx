@@ -69,7 +69,7 @@ const ProjectCard = () => {
                   href={project.liveLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="btn text-white"
+                  className="btn text-white rounded-pill"
                 >
                   <i className="fa fa-globe"></i> Visit Site
                 </a>
