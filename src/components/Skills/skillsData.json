@@ -3,7 +3,7 @@
     "name": "React",
     "category": "Frontend",
     "description": "React is a JavaScript library for building user interfaces. It allows developers to create large web applications that can change data, without reloading the page.",
-    "color": "rgb(87, 253, 255)",
+    "color": "#61dbfb",
     "icon": "fa-brands fa-react"
   },
   {
