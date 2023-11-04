@@ -21,9 +21,7 @@ function App() {
       }, 2000);
     };
 
-    window.addEventListener('load', handleLoad);
-
-    return () => window.removeEventListener('load', handleLoad);
+    handleLoad();
   }, []);
 
   return (
