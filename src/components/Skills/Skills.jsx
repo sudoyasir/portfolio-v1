@@ -14,17 +14,19 @@ const Skills = () => {
     <div className="container my-5">
       <h2 className="fw-bold text-white">Skills</h2>
       <div className="d-flex justify-content-center my-4">
-        {skillTypes.map((type, index) => (
-          <button
-            key={index}
-            className={`btn mx-2 ${
-              selectedCategory === type ? "btn-success" : "btn-secondary"
-            }`}
-            onClick={() => filterSkills(type)}
-          >
-            {type}
-          </button>
-        ))}
+        <div className="d-flex flex-wrap categoryBtn">
+          {skillTypes.map((type, index) => (
+            <button
+              key={index}
+              className={`btn mx-2 ${
+                selectedCategory === type ? "btn-success" : "btn-secondary"
+              }`}
+              onClick={() => filterSkills(type)}
+            >
+              {type}
+            </button>
+          ))}
+        </div>
       </div>
       <div className="row my-4">
         {skillsData

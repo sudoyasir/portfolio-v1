@@ -66,10 +66,13 @@ html {
   margin: auto 10px;
   color: white;
 }
+#NavigationBar ul li a:hover {
+  color: #00ff78;
+}
 
 .active {
-  color: white !important;
-  font-weight: 600;
+  color: #00ff78 !important;
+  font-weight: 700;
 }
 .bgImg1 {
   background-image: url("./images/me.jpg");
@@ -283,5 +286,8 @@ html {
   .linkIcon i {
     top: auto;
     bottom: 35px !important;
+  }
+  .categoryBtn button{
+    margin-bottom: 10px !important;
   }
 }
