@@ -31,13 +31,23 @@
   border: 2px solid #fff;
 }
 
-.btn-success{
+.btn-success {
   background-color: #00c85e !important;
   border-color: #00c85e !important;
 }
-.btn-success:active{
+.btn-success:active {
   box-shadow: none !important;
 }
-.btn{
+.btn {
   box-shadow: none !important;
+}
+
+// Spinner-Loader
+.spinner-container {
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+.spinner-container.hidden {
+  opacity: 0;
 }

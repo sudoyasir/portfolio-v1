@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from "../../images/logo.png";
 import CV from "../../cv.pdf";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "../../App.scss";
 
 const Header = () => {
   const handleDownload = () => {
@@ -18,17 +18,20 @@ const Header = () => {
     });
   };
 
+
   return (
     <section id="NavigationBar" data-aos="fade" data-aos-duration="4000">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark">
           <div className="container-fluid">
             <a
-              className="navbar-brand"
+              className="navbar-brand d-flex align-items-center"
               href="http://yasir2002.github.io/portfolio"
             >
-              <img src={Logo} alt="" />{" "}
-              <b className="text-white"> &nbsp;Yasir </b>
+              <div>
+                <div className="logo pe-2"></div>
+              </div>
+              <b className="text-white ms-2" style={{fontWeight: "900"}}> &nbsp;Yasir </b>
             </a>
             <button
               className="navbar-toggler"

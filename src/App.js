@@ -9,26 +9,34 @@ import Skills from "./components/Skills/Skills";
 import { HashLoader } from "react-spinners";
 import ScrollToTopButton from "./components/ScrollTopBtn/ScrollTopBtn";
 import { ToastContainer } from "react-toastify";
+import "./index.scss"
 
 function App() {
   const [showSpinner, setShowSpinner] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowSpinner(false);
-    }, 5000);
-    return () => clearTimeout(timer);
+    const handleLoad = () => {
+      setTimeout(() => {
+        setShowSpinner(false);
+      }, 2000);
+    };
+
+    window.addEventListener('load', handleLoad);
+
+    return () => window.removeEventListener('load', handleLoad);
   }, []);
 
   return (
     <div>
       {showSpinner ? (
         <div
+        className="spinner-container"
           style={{
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
             height: "100vh",
+
           }}
         >
           <HashLoader color="#00ff76" />

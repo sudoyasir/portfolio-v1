@@ -10,7 +10,7 @@
     "name": "JavaScript",
     "category": "Frontend",
     "description": "JavaScript is a high-level, interpreted programming language that is used to make web pages interactive and provide online programs, such as video games.",
-    "color": "#e3e137",
+    "color": "#f0db4f",
     "icon": "fa-brands fa-square-js"
   },
   {
@@ -49,6 +49,27 @@
     "icon": "fa-brands fa-react"
   },
   {
+    "name": "React Native",
+    "category": "Mobile",
+    "description": "React Native is an open-source mobile application framework created by Facebook. It is used to develop applications for Android, iOS, Web and UWP by enabling developers to use React along with native platform capabilities.",
+    "color": "#87ff5f",
+    "icon": "fa-brands fa-react"
+  },
+  {
+    "name": "Expo",
+    "category": "Mobile",
+    "description": "Expo is an open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React.",
+    "color": "#fff",
+    "icon": "fa-brands fa-android"
+  },
+  {
+    "name": "Native Tailwind",
+    "category": "Mobile",
+    "description": "Native Tailwind is a React Native library that allows you to use Tailwind CSS in your React Native projects.",
+    "color": "#06b6d4",
+    "icon": "fa-solid fa-brush"
+  },
+  {
     "name": "NPM",
     "category": "Tools",
     "description": "npm, short for Node Package Manager, is a widely used package manager for the JavaScript programming language. It serves as a central repository for open-source JavaScript tools and libraries, allowing developers to easily discover, share, and reuse code. ",
@@ -61,6 +82,13 @@
     "description": "Git is a distributed version control system that is widely used for tracking changes in source code during software development. It allows multiple developers to collaborate on a project while keeping track of each change made to the codebase.",
     "color": "#ff3525",
     "icon": "fa-brands fa-git-alt"
+  },
+  {
+    "name": "Adobe Photoshop",
+    "category": "Tools",
+    "description": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, the software has become the industry standard not only in raster graphics editing, but in digital art as a whole.",
+    "color": "#00c8ff",
+    "icon": "fa-regular fa-image"
   },
   {
     "name": "CSS 3",
@@ -89,5 +117,27 @@
     "description": "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.",
     "color": "#06b6d4",
     "icon": "fa-solid fa-brush"
+  },
+  {
+    "name": "Sass",
+    "category": "Frontend",
+    "description": "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. SassScript is the scripting language itself. Sass consists of two syntaxes. The original syntax, called 'the indented syntax', uses a syntax similar to Haml.",
+    "color": "#c69",
+    "icon": "fa-brands fa-sass"
+  },
+  {
+    "name": "Heroku",
+    "category": "Tools",
+    "description": "Heroku is a cloud platform as a service supporting several programming languages. One of the first cloud platforms, Heroku has been in development since June 2007, when it supported only the Ruby programming language, but now supports Java, Node.js, Scala, Clojure, Python, PHP, and Go.",
+    "color": "#79589f",
+    "icon": "fa-solid fa-cloud"
+  },
+  {
+    "name": "Postman",
+    "category": "Tools",
+    "description": "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.",
+    "color": "#ff6c37",
+    "icon": "fa-solid fa-paper-plane"
   }
+
 ]

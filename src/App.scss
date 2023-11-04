@@ -30,9 +30,22 @@ html {
 }
 
 .logo {
-  text-decoration: none;
   color: white;
   font-weight: bold;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #00ff78;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 2px #00ff78, 0 0 4px #00ff78, 0 0 6px #00ff78, 0 0 8px #00ff78;
+  }
+  to {
+    box-shadow: 0 0 4px #00ff78, 0 0 8px #00ff78, 0 0 10px #00ff78, 0 0 12px #00ff78;
+  }
 }
 
 .logo:hover {
