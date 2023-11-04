@@ -18,7 +18,7 @@
     "category": "Backend",
     "description": "Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.",
     "color": "#3c873a",
-    "icon": "fa-brands fa-node-js"
+    "icon": "fa-brands fa-node"
   },
   {
     "name": "Express",
@@ -32,7 +32,7 @@
     "category": "Backend",
     "description": "MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.",
     "color": "#3c873a",
-    "icon": "fa-brands fa-node-js"
+    "icon": "fas fa-database"
   },
   {
     "name": "Mongoose",
@@ -133,11 +133,24 @@
     "icon": "fa-solid fa-cloud"
   },
   {
+    "name": "Figma",
+    "category": "Tools",
+    "description": "Figma is a cloud-based design tool that is similar to Sketch in functionality and features, but with big differences that make Figma better for team collaboration. It allows for design, prototyping, and code-generation all in one place, making it a one-stop-shop for product teams.",
+    "color": "#F24E1E",
+    "icon": "fa-solid fa-drafting-compass"
+  },
+  {
+    "name": "Canva",
+    "category": "Tools",
+    "description": "Canva is a graphic design platform that allows users to create social media graphics, presentations, posters and other visual content. It is available on web and mobile, and integrates millions of images, fonts, templates and illustrations.",
+    "color": "#00c4cc",
+    "icon": "fa-solid fa-paint-brush"
+  },
+  {
     "name": "Postman",
     "category": "Tools",
     "description": "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.",
     "color": "#ff6c37",
     "icon": "fa-solid fa-paper-plane"
   }
-
 ]
