@@ -26,7 +26,7 @@ const Header = () => {
           <div className="container-fluid">
             <a
               className="navbar-brand d-flex align-items-center"
-              href="http://yasir2002.github.io/portfolio"
+              href="http://yasir2002.github.io"
             >
               <div>
                 <div className="logo pe-2"></div>
