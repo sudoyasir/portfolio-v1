@@ -39,8 +39,15 @@ This portfolio website serves as a comprehensive display of my projects, skills,
 To set up this project locally, follow these steps:
 
 1. Clone the repository.
-2. Install the necessary dependencies using `npm install`.
-3. Run the development server using `npm start`.
+   ```bash
+   git clone https://github.com/yasir2002/yasir2002.github.io
+
+2. Navigate to the directory.
+   ```bash
+   cd yasir2002.github.io
+   
+3. Install the necessary dependencies using `npm install`.
+4. Run the development server using `npm start`.
 
 ## Usage
 
