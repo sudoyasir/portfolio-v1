@@ -152,5 +152,12 @@
     "description": "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.",
     "color": "#ff6c37",
     "icon": "fa-solid fa-paper-plane"
+  },
+  {
+    "name": "Jupyter Notebook",
+    "category": "Tools",
+    "description": "The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text.",
+    "color": "#f37821",
+    "icon": "fa-brands fa-python"
   }
 ]
