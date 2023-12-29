@@ -4,11 +4,15 @@ import "./ProjectCard.scss";
 
 import projects from "./Projects.json";
 
+// Web Projects Pictures
 import project1 from "./projectsImages/project1.png";
 import project2 from "./projectsImages/project2.png";
 import project3 from "./projectsImages/project3.png";
 
-const images = [project1, project2, project3];
+// Mobile Projects Pictures
+import mobproject1 from "./projectsImages/MobProj1.gif";
+
+const images = [project1, project2, project3, mobproject1];
 
 const getIcon = (language) => {
   switch (language) {
@@ -24,6 +28,12 @@ const getIcon = (language) => {
       return { className: "fab fa-js", color: "#F7DF1E" };
     case "Bootstrap":
       return { className: "fab fa-bootstrap", color: "#a500ff" };
+    case "Native":
+      return { className: "fab fa-react", color: "#00f1ff" };
+    case "NativeWind":
+      return { className: "fa-solid fa-paintbrush", color: "#ff596e" };
+      case "API":
+        return { className: "fa-solid fa-truck-fast", color: "#ffb54f" };
     default:
       return { className: "fa-solid fa-question", color: "red" };
   }
@@ -42,11 +52,12 @@ const ProjectCard = () => {
           <div className="row">
             <div className="col-md-7 d-flex flex-column justify-content-around custom-content">
               <h5 className="" style={{ color: "#00ff7779" }}>
-              <i class="fa-solid fa-tag"></i> {project.type}
+                <i class="fa-solid fa-tag"></i> {project.type}
               </h5>
               <h2 className="fw-bold w-75 text-white">{project.name}</h2>
-              <div className="d-flex justify-content-around w-50"
-                style={{color: "white"}}
+              <div
+                className="d-flex justify-content-around w-50"
+                style={{ color: "white" }}
               >
                 {project.languages.map((language, langIndex) => {
                   const { className, color } = getIcon(language);
@@ -85,7 +96,7 @@ const ProjectCard = () => {
             </div>
             <div className="col-md-5">
               <div>
-                <img src={images[index]} className="img-fluid rounded" alt="" />
+                <img src={images[index]} className="img-fluid rounded" alt="" style={{maxWidth: "100%"}} />
               </div>
             </div>
           </div>

@@ -19,5 +19,12 @@
     "languages": ["React", "JSX","Bootstrap", "CSS"],
     "liveLink": "https://yasir2002.github.io/",
     "githubLink": "https://github.com/yasir2002/yasir2002.github.io"
+  },
+  {
+    "name": "WeatherWar: a sleek and modern weather application.",
+    "type": "Mobile App",
+    "languages": ["Native","JSX","NativeWind", "API"],
+    "liveLink": "https://yasir2002.github.io/",
+    "githubLink": "https://github.com/yasir2002/yasir2002.github.io"
   }
 ]
